@@ -7,8 +7,8 @@ from nltk.stem import SnowballStemmer
 import spacy
 
 # Cargar los datos
-df = pd.read_csv('tu_archivo.csv')
-textos = df['nombre_de_tu_columna']
+df = pd.read_csv('12.csv')
+textos = df['Texto']
 
 # Descargar recursos de NLTK si no están descargados
 nltk.download('punkt')
